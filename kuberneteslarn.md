@@ -38,16 +38,20 @@
 當我們 create **Deployment** 之後, Kubernetes 的 control plain 會控制執行這些 application 的 nodes. 提供 **self-healing mechanism**, 恢復 failure 的 nodes
 ![Deployment](images/deployment.jpg)
 ### Pods and Nodes
-- Pods
-  - Pods host 我們給他們的 application
-  - Pods 共享些資源
-    - Shared storage, as **Volumes**
-    - Networking, as a **unique cluster IP address**
-    - Information about how to run each container, such as the container image version or specific ports to use
-  - **Pod**
+#### Pods
+- **Pod**
+    > A Pod is a group of one or more application containers (such as Docker) and includes shared storage (volumes), IP address and information about how to run them.
+    - Pod host 我們給他們的 application
     - 一個 **Pod** 可以包含一個或多個 container, 例如 Node.js app + Node.js webserver
+    - Pod 內的 containers 共享些資源
+        - Shared storage, as **Volumes**
+        - Networking, as a **unique cluster IP address**
+        - Information about how to run each container, such as the container image version or specific ports to use
     - 同個 pod 內的 container 共享同個 IP address 跟 port space
     - 一個 pod 是 **atomic unit**, 最小單位，不可再分割
+    - 一個 pod 會被 scheduled 到一個 available 的 node 上面，直到 node terminated or failure. 如果是 node failure, pod 會被 scheduled 到另一個可供使用的 node
+
+![Pod](images/pod.png)
 
 ## Architecture
 // ...existing code...
