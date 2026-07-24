@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-07-24",
+  "as_of": "2026-07-24T19:30:00+08:00",
+  "timezone": "Asia/Taipei",
+  "model_version": "v2.0.0-heuristic",
+  "config_hash": "13f40f7e725f24d8",
+  "data_quality": {
+    "candidate_pool_target": "30-100",
+    "candidate_pool_actual": 9,
+    "coverage_note": "Replay limited to 9 names with reproducible daily OHLCV from available tools; do not interpret ranking as whole-market deciles.",
+    "missing": ["full-market stock universe", "uniform per-stock institution flow for all 9 names", "final 2026-07-24 US regular-session close"]
+  },
+  "market": {
+    "taiex": {"close": 43654.84, "return_1d": -0.0267, "turnover_100m_twd": 7924.35, "up": 346, "down": 662, "flat": 98},
+    "tpex": {"close": 377.63, "return_1d": -0.0369, "turnover_100m_twd": 1893.33, "up": 223, "down": 577, "flat": 63},
+    "institutional": {"foreign_100m_twd": -609.50, "trust_100m_twd": 57.08, "dealer_100m_twd": -111.51},
+    "tx_futures": {"close": 43905, "cash_basis_pct": 0.00573, "foreign_net_open_interest_contracts": -76260},
+    "twd_usd": {"close": 32.358, "change_twd": 0.092},
+    "prior_us_session": {"nasdaq_return": -0.0215, "sox_return": -0.0054, "vix": 18.74, "us10y_pct": 4.703},
+    "taiex_return_5d": 0.02305,
+    "taiex_return_approx_20d": -0.02057
+  },
+  "market_model_inputs": {
+    "momentum_1d": -1.0,
+    "breadth": -1.0,
+    "foreign_flow": -1.0,
+    "futures_basis": 1.0,
+    "fx": -1.0,
+    "global_tech": -1.0,
+    "volatility_regime": -1.0
+  },
+  "market_score": -0.80,
+  "market_regime": "risk_off",
+  "candidate_pool": [
+    {"ticker":"3231","name":"緯創","return_1d":0.03170,"return_5d":0.28777,"return_approx_20d":0.21282,"volume_ratio":2.0458,"institution_flow_signal":1.0,"event_score":1.0,"alpha_score":1.0183},
+    {"ticker":"2454","name":"聯發科","return_1d":-0.03226,"return_5d":0.11276,"return_approx_20d":-0.02773,"volume_ratio":0.8941,"institution_flow_signal":0.0,"event_score":0.0,"alpha_score":0.4106},
+    {"ticker":"2317","name":"鴻海","return_1d":-0.01942,"return_5d":0.07906,"return_approx_20d":0.04637,"volume_ratio":0.5604,"institution_flow_signal":0.0,"event_score":0.0,"alpha_score":0.3091},
+    {"ticker":"6643","name":"M31","return_1d":0.01190,"return_5d":0.08557,"return_approx_20d":-0.07609,"volume_ratio":0.7126,"institution_flow_signal":0.0,"event_score":0.0,"alpha_score":0.2725},
+    {"ticker":"2884","name":"玉山金","return_1d":0.00842,"return_5d":0.02422,"return_approx_20d":0.08446,"volume_ratio":0.4729,"institution_flow_signal":0.0,"event_score":0.0,"alpha_score":0.0657},
+    {"ticker":"2330","name":"台積電","return_1d":-0.02287,"return_5d":0.02620,"return_approx_20d":0.00427,"volume_ratio":0.5076,"institution_flow_signal":0.0,"event_score":0.0,"alpha_score":0.0045},
+    {"ticker":"2382","name":"廣達","return_1d":-0.02381,"return_5d":0.00768,"return_approx_20d":-0.05525,"volume_ratio":0.4258,"institution_flow_signal":0.0,"event_score":0.0,"alpha_score":-0.1419},
+    {"ticker":"2303","name":"聯電","return_1d":-0.07581,"return_5d":-0.11111,"return_approx_20d":-0.20615,"volume_ratio":0.6912,"institution_flow_signal":0.0,"event_score":0.0,"alpha_score":-0.7309},
+    {"ticker":"3481","name":"群創","return_1d":-0.04624,"return_5d":-0.05894,"return_approx_20d":-0.23846,"volume_ratio":0.6605,"institution_flow_signal":-1.0,"event_score":0.0,"alpha_score":-0.7325}
+  ],
+  "sources": [
+    "CNA / Economic Daily 2026-07-24 Taiwan close and breadth",
+    "TAIFEX 2026-07-24 futures data",
+    "Taipei FX close 2026-07-24",
+    "Reuters / Yahoo Finance prior US-session global signals",
+    "Fugle historical OHLCV for the 9-name replay pool"
+  ]
+}
