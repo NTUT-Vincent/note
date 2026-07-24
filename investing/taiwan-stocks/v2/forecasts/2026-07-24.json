@@ -1,0 +1,78 @@
+{
+  "forecast_date": "2026-07-24",
+  "forecast_timestamp": "2026-07-24T19:30:00+08:00",
+  "target_trading_date": "2026-07-27",
+  "immutable": true,
+  "model_version": "v2.0.0-heuristic",
+  "config_hash": "13f40f7e725f24d8",
+  "probability_calibrated": false,
+  "market": {
+    "regime": "risk_off",
+    "raw_score": -0.80,
+    "direction": "down",
+    "expected_return_interval": [-0.0278, 0.0150],
+    "note": "Direction score is bearish; wide deterministic interval explicitly allows rebound risk."
+  },
+  "formal_stock_forecasts": [
+    {
+      "ticker": "3231",
+      "name": "緯創",
+      "start_price": 179.0,
+      "alpha_score": 1.0183,
+      "absolute_score": 0.0100,
+      "expected_relative_performance": "lead",
+      "absolute_direction": "flat",
+      "expected_return_interval": [-0.0284, 0.0287],
+      "horizons": {"1d":"flat","3d":"lead_bias","5d":"lead_bias"},
+      "feature_evidence": ["5d momentum +28.8%", "approx 20d momentum +21.3%", "volume ratio 2.05x", "foreign/institutional flow positive"],
+      "event_evidence": ["AI server / Dallas capacity expansion event remains within event half-life"],
+      "invalidation": ["event thesis materially reverses", "relative strength collapses below market by >0.8pct on heavy volume"]
+    },
+    {
+      "ticker": "2303",
+      "name": "聯電",
+      "start_price": 128.0,
+      "alpha_score": -0.7309,
+      "absolute_score": -0.7689,
+      "expected_relative_performance": "lag",
+      "absolute_direction": "down",
+      "expected_return_interval": [-0.0798, 0.0567],
+      "horizons": {"1d":"down","3d":"lag_bias","5d":"lag_bias"},
+      "feature_evidence": ["5d momentum -11.1%", "approx 20d momentum -20.6%", "market regime risk_off"],
+      "event_evidence": [],
+      "invalidation": ["strong sector-wide reversal with price and flow confirmation"]
+    },
+    {
+      "ticker": "3481",
+      "name": "群創",
+      "start_price": 49.5,
+      "alpha_score": -0.7325,
+      "absolute_score": -0.7696,
+      "expected_relative_performance": "lag",
+      "absolute_direction": "down",
+      "expected_return_interval": [-0.0532, 0.0301],
+      "horizons": {"1d":"down","3d":"lag_bias","5d":"lag_bias"},
+      "feature_evidence": ["5d momentum -5.9%", "approx 20d momentum -23.8%", "foreign flow signal negative", "market regime risk_off"],
+      "event_evidence": [],
+      "invalidation": ["price/volume and foreign-flow reversal become simultaneously positive"]
+    }
+  ],
+  "no_forecast_watchlist": ["2330","2454","2317","2382","2884","6643"],
+  "baseline_predictions": {
+    "market": {"always_neutral":"flat","momentum_1d":"down","mean_reversion_1d":"up","momentum_20d":"down"},
+    "2330": {"always_neutral":"flat","momentum_1d":"down","mean_reversion_1d":"up","momentum_20d":"flat"},
+    "2454": {"always_neutral":"flat","momentum_1d":"down","mean_reversion_1d":"up","momentum_20d":"down"},
+    "2317": {"always_neutral":"flat","momentum_1d":"down","mean_reversion_1d":"up","momentum_20d":"up"},
+    "3231": {"always_neutral":"flat","momentum_1d":"up","mean_reversion_1d":"down","momentum_20d":"up"},
+    "2382": {"always_neutral":"flat","momentum_1d":"down","mean_reversion_1d":"up","momentum_20d":"down"},
+    "3481": {"always_neutral":"flat","momentum_1d":"down","mean_reversion_1d":"up","momentum_20d":"down"},
+    "2303": {"always_neutral":"flat","momentum_1d":"down","mean_reversion_1d":"up","momentum_20d":"down"},
+    "2884": {"always_neutral":"flat","momentum_1d":"up","mean_reversion_1d":"down","momentum_20d":"up"},
+    "6643": {"always_neutral":"flat","momentum_1d":"up","mean_reversion_1d":"down","momentum_20d":"down"}
+  },
+  "edge_filter": {
+    "candidate_pool_actual": 9,
+    "passed": ["3231","2303","3481"],
+    "reason": "abs(alpha_score)>=0.60 under small-universe fallback; 3231 is also top-ranked and 3481 bottom-ranked."
+  }
+}
