@@ -1,0 +1,22 @@
+{
+  "forecast_date": "2026-07-25",
+  "execution_timestamp": "2026-07-25T01:55:00+08:00",
+  "target_trading_date": "2026-07-27",
+  "immutable": true,
+  "model_version": "v2.0.0-heuristic",
+  "config_hash": "13f40f7e725f24d8",
+  "status": "NO_FORECAST",
+  "formal_stock_forecasts": [],
+  "market_forecast_action": "NO_NEW_FORECAST",
+  "open_forecast_reference": "investing/taiwan-stocks/v2/forecasts/2026-07-24.json",
+  "reason": [
+    "2026-07-25 is not a Taiwan trading day",
+    "no new Taiwan close exists after the 2026-07-24 forecast",
+    "US regular-session information available at execution time was partial and not final",
+    "creating a second overlapping formal forecast for the same 2026-07-27 target would contaminate evaluation"
+  ],
+  "monitor_only": {
+    "global_update": "broader US equities showed partial relief while semiconductor weakness and elevated yields persisted",
+    "action": "keep 2026-07-24 immutable forecast open; evaluate only after 2026-07-27 Taiwan close"
+  }
+}
