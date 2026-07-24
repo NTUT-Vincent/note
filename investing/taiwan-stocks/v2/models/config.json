@@ -1,0 +1,56 @@
+{
+  "model_version": "v2.0.0-heuristic",
+  "status": "champion",
+  "trained_model": false,
+  "calibrated_probability": false,
+  "config_hash": "13f40f7e725f24d8",
+  "market_model": {
+    "weights": {
+      "momentum_1d": 0.20,
+      "breadth": 0.15,
+      "foreign_flow": 0.20,
+      "futures_basis": 0.10,
+      "fx": 0.10,
+      "global_tech": 0.15,
+      "volatility_regime": 0.10
+    },
+    "direction_thresholds": {"up": 0.25, "down": -0.25},
+    "signal_scale": "each input normalized to [-1,1]"
+  },
+  "stock_alpha_model": {
+    "weights": {
+      "momentum_5d": 0.25,
+      "momentum_20d": 0.15,
+      "relative_strength_5d": 0.25,
+      "volume_ratio": 0.10,
+      "institution_flow": 0.15,
+      "event_score": 0.15,
+      "volatility_penalty": -0.05
+    },
+    "normalization": {
+      "momentum_5d": "clip(return_5d/0.10,-1,1)",
+      "momentum_20d": "clip(return_20d/0.20,-1,1)",
+      "relative_strength_5d": "clip((return_5d-market_return_5d)/0.10,-1,1)",
+      "volume_ratio": "clip(volume_ratio-1,-1,1)",
+      "volatility_penalty": "clip(abs(return_1d)/0.05,0,1)"
+    },
+    "absolute_score": "0.55*market_score + 0.45*clip(alpha_score,-1,1)",
+    "direction_thresholds": {"up": 0.25, "down": -0.25}
+  },
+  "edge_filter": {
+    "top_percentile": 0.10,
+    "bottom_percentile": 0.10,
+    "min_abs_alpha_if_small_universe": 0.60
+  },
+  "interval_model": {
+    "market": "center=0.008*market_score; half_width=clip(max(0.012,0.8*abs(last_return)),0.012,0.04)",
+    "stock": "center=0.015*absolute_score; half_width=clip(max(0.02,0.9*abs(last_return)),0.02,0.08)"
+  },
+  "baselines": ["always_neutral", "momentum_1d", "mean_reversion_1d", "momentum_20d"],
+  "learning_policy": {
+    "daily_model_updates": false,
+    "weekly_review": true,
+    "min_samples_for_rule": 20,
+    "min_samples_for_challenger": 40
+  }
+}
