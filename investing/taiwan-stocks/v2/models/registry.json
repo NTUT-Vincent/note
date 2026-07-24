@@ -1,0 +1,33 @@
+{
+  "champion": {
+    "version": "v2.0.0-heuristic",
+    "type": "deterministic_weighted_score",
+    "config_path": "investing/taiwan-stocks/v2/models/config.json",
+    "activated_at": "2026-07-25T01:00:00+08:00",
+    "trained": false,
+    "calibrated": false,
+    "notes": "Initial V2 champion. Exists to provide a fixed reproducible baseline; it must not be described as ML."
+  },
+  "challengers": [],
+  "promotion_policy": {
+    "minimum_samples": 40,
+    "validation": "walk_forward",
+    "must_beat_champion_out_of_sample": true,
+    "must_compare_to_baselines": true,
+    "required_metrics": [
+      "direction_accuracy",
+      "balanced_accuracy_when_applicable",
+      "interval_coverage",
+      "relative_performance_accuracy",
+      "baseline_delta"
+    ]
+  },
+  "history": [
+    {
+      "version": "v2.0.0-heuristic",
+      "status": "champion",
+      "date": "2026-07-25",
+      "reason": "V2 architecture initialization after V1 showed no reliable evidence of forecasting edge."
+    }
+  ]
+}
