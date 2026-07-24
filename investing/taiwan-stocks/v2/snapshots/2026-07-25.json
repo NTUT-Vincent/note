@@ -1,0 +1,27 @@
+{
+  "snapshot_date": "2026-07-25",
+  "as_of": "2026-07-25T01:55:00+08:00",
+  "timezone": "Asia/Taipei",
+  "trading_day": false,
+  "model_version": "v2.0.0-heuristic",
+  "config_hash": "13f40f7e725f24d8",
+  "taiwan_market_state": "unchanged_from_2026-07-24_close",
+  "open_forecast_reference": "investing/taiwan-stocks/v2/forecasts/2026-07-24.json",
+  "new_information": {
+    "us_session_status": "partial / not final at snapshot time",
+    "reuters_global_update": {
+      "sp500": "modestly positive around +0.5% in reported update",
+      "nasdaq": "roughly flat in reported update",
+      "sox": "about -2.7% in reported update",
+      "brent_usd": 95.71,
+      "brent_context": "down about 5% from above 102",
+      "us30y_pct": 5.151,
+      "macro": ["bond yields remain elevated", "Middle East risk remains", "new tariff risk", "AI capex concerns remain"]
+    }
+  },
+  "formal_feature_update": false,
+  "reason": "No new Taiwan close and the US regular session was incomplete at snapshot time; mixing partial US data into a new formal forecast would create inconsistent feature timing.",
+  "candidate_pool_actual": 9,
+  "candidate_prices": "unchanged from 2026-07-24 Taiwan close",
+  "sources": ["Reuters 2026-07-24 global markets intraday update", "2026-07-24 V2 snapshot"]
+}
