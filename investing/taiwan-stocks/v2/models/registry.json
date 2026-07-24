@@ -1,0 +1,27 @@
+{
+  "champion": {
+    "version": "v2.0.0-heuristic",
+    "type": "deterministic_weighted_score",
+    "config_path": "investing/taiwan-stocks/v2/models/config.json",
+    "config_hash": "13f40f7e725f24d8",
+    "activated_at": "2026-07-24T19:30:00+08:00",
+    "trained": false,
+    "calibrated": false,
+    "notes": "Clean reset. Fixed deterministic champion for out-of-sample collection; not ML."
+  },
+  "challengers": [],
+  "promotion_policy": {
+    "minimum_samples": 40,
+    "validation": "walk_forward",
+    "must_beat_champion_out_of_sample": true,
+    "must_compare_to_baselines": true
+  },
+  "history": [
+    {
+      "version": "v2.0.0-heuristic",
+      "status": "champion",
+      "date": "2026-07-24",
+      "reason": "Fresh V2 reset and first reproducible replay run."
+    }
+  ]
+}
