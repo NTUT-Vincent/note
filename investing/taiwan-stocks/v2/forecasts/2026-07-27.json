@@ -1,0 +1,78 @@
+{
+  "forecast_date": "2026-07-27",
+  "forecast_timestamp": "2026-07-27T19:28:00+08:00",
+  "target_trading_date": "2026-07-28",
+  "immutable": true,
+  "model_version": "v2.0.0-heuristic",
+  "config_hash": "13f40f7e725f24d8",
+  "probability_calibrated": false,
+  "market": {
+    "regime": "mixed",
+    "raw_score": 0.45,
+    "direction": "up",
+    "expected_return_interval": [-0.0084, 0.0156],
+    "horizons": {"1d":"up","3d":"up_bias_with_high_volatility","5d":"mixed"},
+    "feature_evidence": [
+      "foreign cash flow flipped to +TWD 8.04bn",
+      "near-month futures traded about 1.22% above spot after close",
+      "TWD appreciated 0.16% to 32.305",
+      "Nasdaq-100 futures +1.68% and S&P 500 futures +1.02% around 16:59 Taipei after US-Iran pause",
+      "Brent fell 8.8% to about USD 88.30, reducing the inflation/geopolitical risk premium",
+      "offset: TAIEX still had a 1.64% intraday high-low range and foreign futures net shorts increased to 78,699"
+    ],
+    "invalidation": [
+      "U.S. semiconductor rebound fails materially before Taiwan open",
+      "oil rapidly reverses higher on renewed hostilities",
+      "Taiwan futures positive basis collapses before the next cash session"
+    ]
+  },
+  "formal_stock_forecasts": [
+    {
+      "ticker": "3231",
+      "name": "緯創",
+      "start_price": 177.0,
+      "market_regime": "mixed",
+      "market_direction": "up",
+      "alpha_score": 0.7821,
+      "absolute_score": 0.5995,
+      "expected_relative_performance": "lead",
+      "absolute_direction": "up",
+      "expected_return_interval": [-0.0110, 0.0290],
+      "raw_score": 0.5995,
+      "horizons": {"1d":"up","3d":"lead_bias","5d":"lead_bias"},
+      "feature_evidence": [
+        "5d return +23.34%",
+        "~20d return +19.93%",
+        "5d relative strength versus TAIEX remains strongly positive",
+        "volume ratio 0.94x is not an exhaustion spike"
+      ],
+      "event_evidence": [
+        "Wistron opened a USD 700m Texas AI-system facility on 2026-07-22; event remains within the configured event half-life window"
+      ],
+      "invalidation_conditions": [
+        "event thesis materially reverses",
+        "stock underperforms TAIEX by more than 0.8 percentage point on heavy volume",
+        "market global-tech signal reverses sharply before the next Taiwan session"
+      ],
+      "model_version": "v2.0.0-heuristic"
+    }
+  ],
+  "no_forecast_watchlist": ["2330","2454","2317","2382","3481","2303","2884","6643"],
+  "baseline_predictions": {
+    "market": {"always_neutral":"flat","momentum_1d":"flat","mean_reversion_1d":"flat","momentum_20d":"down"},
+    "2330": {"always_neutral":"flat","momentum_1d":"flat","mean_reversion_1d":"flat","momentum_20d":"flat"},
+    "2454": {"always_neutral":"flat","momentum_1d":"down","mean_reversion_1d":"up","momentum_20d":"down"},
+    "2317": {"always_neutral":"flat","momentum_1d":"flat","mean_reversion_1d":"flat","momentum_20d":"up"},
+    "3231": {"always_neutral":"flat","momentum_1d":"down","mean_reversion_1d":"up","momentum_20d":"up"},
+    "2382": {"always_neutral":"flat","momentum_1d":"down","mean_reversion_1d":"up","momentum_20d":"down"},
+    "3481": {"always_neutral":"flat","momentum_1d":"down","mean_reversion_1d":"up","momentum_20d":"down"},
+    "2303": {"always_neutral":"flat","momentum_1d":"down","mean_reversion_1d":"up","momentum_20d":"down"},
+    "2884": {"always_neutral":"flat","momentum_1d":"up","mean_reversion_1d":"down","momentum_20d":"up"},
+    "6643": {"always_neutral":"flat","momentum_1d":"up","mean_reversion_1d":"down","momentum_20d":"down"}
+  },
+  "edge_filter": {
+    "candidate_pool_actual": 9,
+    "passed": ["3231"],
+    "reason": "Under the fixed small-universe fallback, only 3231 retained abs(alpha_score)>=0.60 after same-day flow/event inputs. No other candidate passed the fixed edge threshold."
+  }
+}
