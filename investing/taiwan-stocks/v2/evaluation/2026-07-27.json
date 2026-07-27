@@ -1,0 +1,92 @@
+{
+  "evaluation_date": "2026-07-27",
+  "source_forecast": "investing/taiwan-stocks/v2/forecasts/2026-07-24.json",
+  "model_version": "v2.0.0-heuristic",
+  "config_hash": "13f40f7e725f24d8",
+  "target_trading_date": "2026-07-27",
+  "market": {
+    "predicted_direction": "down",
+    "predicted_interval": [-0.0278, 0.0150],
+    "actual_return": -0.000473,
+    "actual_direction": "flat",
+    "direction_hit": false,
+    "interval_hit": true
+  },
+  "stocks": [
+    {
+      "ticker": "3231",
+      "name": "緯創",
+      "start_price": 179.0,
+      "close": 177.0,
+      "actual_return": -0.011173,
+      "actual_direction": "down",
+      "predicted_direction": "flat",
+      "direction_hit": false,
+      "market_relative_return_pct_points": -1.07,
+      "actual_relative_label": "lag",
+      "predicted_relative_label": "lead",
+      "relative_hit": false,
+      "interval_hit": true
+    },
+    {
+      "ticker": "2303",
+      "name": "聯電",
+      "start_price": 128.0,
+      "close": 126.0,
+      "actual_return": -0.015625,
+      "actual_direction": "down",
+      "predicted_direction": "down",
+      "direction_hit": true,
+      "market_relative_return_pct_points": -1.52,
+      "actual_relative_label": "lag",
+      "predicted_relative_label": "lag",
+      "relative_hit": true,
+      "interval_hit": true
+    },
+    {
+      "ticker": "3481",
+      "name": "群創",
+      "start_price": 49.5,
+      "close": 47.35,
+      "actual_return": -0.043434,
+      "actual_direction": "down",
+      "predicted_direction": "down",
+      "direction_hit": true,
+      "market_relative_return_pct_points": -4.30,
+      "actual_relative_label": "lag",
+      "predicted_relative_label": "lag",
+      "relative_hit": true,
+      "interval_hit": true
+    }
+  ],
+  "v2_summary": {
+    "stock_direction_hits": 2,
+    "stock_direction_samples": 3,
+    "stock_relative_hits": 2,
+    "stock_relative_samples": 3,
+    "stock_interval_hits": 3,
+    "stock_interval_samples": 3,
+    "market_direction_hits": 0,
+    "market_direction_samples": 1,
+    "market_interval_hits": 1,
+    "market_interval_samples": 1
+  },
+  "baseline_direction_on_same_stock_set": {
+    "always_neutral": {"hits": 0, "samples": 3},
+    "momentum_1d": {"hits": 2, "samples": 3},
+    "mean_reversion_1d": {"hits": 1, "samples": 3},
+    "momentum_20d": {"hits": 2, "samples": 3}
+  },
+  "market_baseline_direction": {
+    "always_neutral": "hit",
+    "momentum_1d": "miss",
+    "mean_reversion_1d": "miss",
+    "momentum_20d": "miss"
+  },
+  "conclusion": "NO EVIDENCE OF EDGE",
+  "notes": [
+    "V2 stock direction tied the best simple baseline at 2/3; it did not outperform.",
+    "The 7/24 bearish market forecast missed because 7/27 closed flat after a large intraday recovery; weekend US-Iran de-escalation was an exogenous event after the forecast cutoff.",
+    "Sample size is far too small for promotion, calibration, or model changes."
+  ]
+}
