@@ -1,0 +1,68 @@
+{
+  "date": "2026-07-27",
+  "data_cutoff": "2026-07-27T19:28:00+08:00",
+  "model_version": "v2.0.0-heuristic",
+  "config_hash": "13f40f7e725f24d8",
+  "market": {
+    "taiex": {"open": 43585.92, "high": 43686.15, "low": 42969.48, "close": 43634.19, "return_1d": -0.000473, "turnover_twd_billion": 717.686},
+    "tpex": {"return_1d": 0.0012, "close": null, "note": "Return verified from CNA; exact close not independently captured in this run."},
+    "foreign_cash_twd_billion": 8.04,
+    "trust_cash_twd_billion": -0.279,
+    "dealer_cash_twd_billion": -7.857,
+    "three_institutions_twd_billion": -0.096,
+    "foreign_futures_net_contracts": -78699,
+    "foreign_futures_change_contracts": -2439,
+    "near_month_futures": 44166.0,
+    "futures_basis_pct": 0.01219,
+    "twd_usd_close": 32.305,
+    "twd_usd_change": -0.053,
+    "twd_appreciation_pct": 0.0016,
+    "breadth": null,
+    "margin_balance": {"value": null, "status": "missing", "context": "CNA intraday commentary said financing balance remained above TWD 580bn, but no stable end-of-day aggregate was captured."}
+  },
+  "global_monitoring": {
+    "timestamp": "2026-07-27T16:59:00+08:00",
+    "nasdaq100_futures_pct": 0.0168,
+    "sp500_futures_pct": 0.0102,
+    "vix": 17.59,
+    "brent_usd": 88.30,
+    "brent_change_pct": -0.088,
+    "context": "US-Iran pause in hostilities reduced oil risk premium; U.S. equity futures rebounded. U.S. regular session had not opened at Taiwan close."
+  },
+  "market_normalized_inputs": {
+    "momentum_1d": 0.0,
+    "breadth": 0.0,
+    "foreign_flow": 1.0,
+    "futures_basis": 1.0,
+    "fx": 1.0,
+    "global_tech": 1.0,
+    "volatility_regime": -1.0
+  },
+  "market_score": 0.45,
+  "market_regime": "mixed",
+  "candidate_pool_actual": 9,
+  "candidate_feature_method": {
+    "momentum_5d": "close_20260727 / close_20260720 - 1",
+    "momentum_20d": "approximately 20 trading days using 20260626 close",
+    "volume_ratio": "20260727 volume divided by mean volume of prior five sessions",
+    "institution_flow": "0 when reliable same-day stock-level flow missing; +1 for 2303 and 3481 because CNA/Yahoo reported large foreign buys on 7/27",
+    "event_score": "3231=+1 while 7/22 Texas AI-system plant event remains within event half-life; others 0 unless verified"
+  },
+  "candidates": [
+    {"ticker":"3231","name":"緯創","close":177.0,"return_1d":-0.011173,"return_5d":0.233449,"return_20d":0.199268,"volume_ratio":0.9387,"institution_flow_signal":0.0,"event_score":1.0,"alpha_score":0.7821},
+    {"ticker":"2454","name":"聯發科","close":3680.0,"return_1d":-0.018667,"return_5d":0.101796,"return_20d":-0.045878,"volume_ratio":0.9469,"institution_flow_signal":0.0,"event_score":0.0,"alpha_score":0.3764},
+    {"ticker":"2317","name":"鴻海","close":253.0,"return_1d":0.001980,"return_5d":0.078891,"return_20d":0.048444,"volume_ratio":0.6767,"institution_flow_signal":0.0,"event_score":0.0,"alpha_score":0.3267},
+    {"ticker":"2884","name":"玉山金","close":36.4,"return_1d":0.012517,"return_5d":0.015342,"return_20d":0.098039,"volume_ratio":0.6249,"institution_flow_signal":0.0,"event_score":0.0,"alpha_score":0.0305},
+    {"ticker":"2330","name":"台積電","close":2350.0,"return_1d":0.0,"return_5d":0.012931,"return_20d":0.004274,"volume_ratio":0.8419,"institution_flow_signal":0.0,"event_score":0.0,"alpha_score":-0.0177},
+    {"ticker":"2382","name":"廣達","close":322.0,"return_1d":-0.018293,"return_5d":0.018987,"return_20d":-0.072527,"volume_ratio":0.8361,"institution_flow_signal":0.0,"event_score":0.0,"alpha_score":-0.0639},
+    {"ticker":"6643","name":"M31","close":435.5,"return_1d":0.027583,"return_5d":0.014466,"return_20d":-0.053261,"volume_ratio":0.6785,"institution_flow_signal":0.0,"event_score":0.0,"alpha_score":-0.0971},
+    {"ticker":"2303","name":"聯電","close":126.0,"return_1d":-0.015625,"return_5d":-0.030769,"return_20d":-0.218556,"volume_ratio":1.0951,"institution_flow_signal":1.0,"event_score":0.0,"alpha_score":-0.2297},
+    {"ticker":"3481","name":"群創","close":47.35,"return_1d":-0.043434,"return_5d":-0.060516,"return_20d":-0.271538,"volume_ratio":1.2475,"institution_flow_signal":1.0,"event_score":0.0,"alpha_score":-0.3910}
+  ],
+  "data_quality": {
+    "reliable_candidate_count": 9,
+    "target_candidate_count": "30-100",
+    "missing": ["exact TPEX close", "exact market breadth close counts", "complete margin aggregate", "same-day institution flow for most candidate stocks", "U.S. regular-session close because it occurs after Taiwan close"],
+    "status": "partial"
+  }
+}
