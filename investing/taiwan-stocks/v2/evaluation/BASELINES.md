@@ -45,4 +45,48 @@ V2 必須和固定 baseline 同場比較，不能只看自身命中率。
 | mean_reversion_1d | 1 | 3 | 33.3% |
 | momentum_20d | 2 | 3 | 66.7% |
 
-首批結果只顯示 V2 與最佳 baseline 打平，沒有 edge 證據。
+## 2026-07-27 → 2026-07-28 成熟結果
+
+### Market
+實際 TAIEX = `down`（-4.65%）。
+
+| Model | Prediction | Result |
+|---|---|---|
+| V2 champion | up | miss |
+| always_neutral | flat | miss |
+| momentum_1d | flat | miss |
+| mean_reversion_1d | flat | miss |
+| momentum_20d | down | **hit** |
+
+### Stock — formal set only
+3231 實際 = `down`（-3.95%）。
+
+| Model | Prediction | Result |
+|---|---|---|
+| V2 champion | up | miss |
+| always_neutral | flat | miss |
+| momentum_1d | down | **hit** |
+| mean_reversion_1d | up | miss |
+| momentum_20d | up | miss |
+
+## 累積方向比較（截至 2026-07-28）
+
+### Formal stock sets
+| Model | Hits | Samples | Accuracy |
+|---|---:|---:|---:|
+| V2 champion | 2 | 4 | 50.0% |
+| always_neutral | 0 | 4 | 0.0% |
+| momentum_1d | 3 | 4 | **75.0%** |
+| mean_reversion_1d | 1 | 4 | 25.0% |
+| momentum_20d | 2 | 4 | 50.0% |
+
+### Market
+| Model | Hits | Samples | Accuracy |
+|---|---:|---:|---:|
+| V2 champion | 0 | 2 | 0.0% |
+| always_neutral | 1 | 2 | 50.0% |
+| momentum_1d | 0 | 2 | 0.0% |
+| mean_reversion_1d | 0 | 2 | 0.0% |
+| momentum_20d | 1 | 2 | 50.0% |
+
+**Conclusion: `NO EVIDENCE OF EDGE`.** V2 formal-stock direction currently trails `momentum_1d`; sample size is far too small for promotion or rejection.
