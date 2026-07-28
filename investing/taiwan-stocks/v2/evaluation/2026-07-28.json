@@ -1,0 +1,45 @@
+{
+  "evaluation_date":"2026-07-28",
+  "source_forecast":"investing/taiwan-stocks/v2/forecasts/2026-07-27.json",
+  "market": {
+    "predicted_direction":"up",
+    "actual_return":-0.0465,
+    "actual_direction":"down",
+    "direction_hit":false,
+    "predicted_interval":[-0.0084,0.0156],
+    "interval_hit":false
+  },
+  "stocks":[
+    {
+      "ticker":"3231",
+      "predicted_direction":"up",
+      "actual_return":-0.0395,
+      "actual_direction":"down",
+      "direction_hit":false,
+      "predicted_relative":"lead",
+      "actual_relative_return_pct_points":0.70,
+      "actual_relative_class":"similar",
+      "relative_hit":false,
+      "predicted_interval":[-0.0110,0.0290],
+      "interval_hit":false
+    }
+  ],
+  "baseline_market": {
+    "always_neutral":{"prediction":"flat","hit":false},
+    "momentum_1d":{"prediction":"flat","hit":false},
+    "mean_reversion_1d":{"prediction":"flat","hit":false},
+    "momentum_20d":{"prediction":"down","hit":true}
+  },
+  "baseline_stocks_same_formal_set": {
+    "3231": {
+      "actual":"down",
+      "v2":"miss",
+      "always_neutral":"miss",
+      "momentum_1d":"hit",
+      "mean_reversion_1d":"miss",
+      "momentum_20d":"miss"
+    }
+  },
+  "candidate_issue_tags":["regime_error","exogenous_shock","event_error"],
+  "interpretation":"The July 27 risk-on inputs were overwhelmed by a renewed global semiconductor selloff. V2 missed both market and the only formal stock forecast and did not beat the simple momentum baselines. No model weights are changed in this daily run."
+}
