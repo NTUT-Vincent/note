@@ -1,0 +1,29 @@
+{
+  "date": "2026-07-28",
+  "timestamp": "2026-07-28T19:11:50+08:00",
+  "model_version": "v2.0.0-heuristic",
+  "config_hash": "13f40f7e725f24d8",
+  "market": {
+    "taiex": {"close":41603.36,"return_1d":-0.0465,"open":43221.93,"high":43221.93,"low":41565.00,"turnover_twd_billion":809.482,"advancers":104,"decliners":1026},
+    "tpex": {"close":357.08,"return_1d":-0.0556,"source_quality":"secondary close series; official TPEx page retrieved but daily row not machine-exposed"},
+    "institutional": {"foreign_twd_billion":-87.562,"trust_twd_billion":2.353,"dealer_twd_billion":-31.730,"total_twd_billion":-116.939},
+    "fx": {"usd_twd_close":32.384,"change_twd":0.079,"direction":"TWD_weaker"},
+    "futures": {"foreign_futures_trade_net_contracts":-1911,"foreign_taiex_specific_oi":"missing_at_run_time","note":"TAIFEX aggregate futures/option table is not comparable with yesterday's TX-specific -78,699 and is not substituted."},
+    "global": {"sox_previous_session_return":-0.0223,"nasdaq_previous_session_return":-0.0018,"today_us_semiconductor_premarket":"weak","brent_usd":85.55,"brent_day_change_approx":-0.03},
+    "missing": ["current TX-specific foreign open interest", "full margin financing aggregate", "uniform same-day institutional flows for all candidate stocks"]
+  },
+  "market_features_normalized": {"momentum_1d":-1.0,"breadth":-1.0,"foreign_flow":-1.0,"futures_basis":0.0,"fx":-1.0,"global_tech":-1.0,"volatility_regime":-1.0,"market_score":-0.90,"regime":"panic"},
+  "candidate_pool": [
+    {"ticker":"2884","close":36.25,"return_1d":-0.0041,"return_5d":0.0055,"return_20d_approx":0.0968,"volume_ratio":1.08,"alpha_score":0.4029},
+    {"ticker":"3231","close":170.0,"return_1d":-0.0395,"return_5d":0.0366,"return_20d_approx":0.1119,"volume_ratio":0.55,"alpha_score":0.3688},
+    {"ticker":"6643","close":416.0,"return_1d":-0.0448,"return_5d":-0.0161,"return_20d_approx":-0.1236,"volume_ratio":2.84,"alpha_score":0.0306},
+    {"ticker":"2330","close":2280.0,"return_1d":-0.0298,"return_5d":-0.0500,"return_20d_approx":-0.0539,"volume_ratio":1.60,"alpha_score":-0.1117},
+    {"ticker":"2317","close":238.0,"return_1d":-0.0593,"return_5d":-0.0537,"return_20d_approx":-0.0235,"volume_ratio":1.05,"alpha_score":-0.1823},
+    {"ticker":"2382","close":313.5,"return_1d":-0.0264,"return_5d":-0.0471,"return_20d_approx":-0.1117,"volume_ratio":1.03,"alpha_score":-0.1940},
+    {"ticker":"3481","close":45.0,"return_1d":-0.0496,"return_5d":-0.1429,"return_20d_approx":-0.3450,"volume_ratio":1.34,"alpha_score":-0.4741,"institution_flow_signal":1.0},
+    {"ticker":"2454","close":3315.0,"return_1d":-0.0992,"return_5d":-0.1390,"return_20d_approx":-0.2144,"volume_ratio":1.18,"alpha_score":-0.6304},
+    {"ticker":"2303","close":113.5,"return_1d":-0.0992,"return_5d":-0.1835,"return_20d_approx":-0.2982,"volume_ratio":0.92,"alpha_score":-0.7082}
+  ],
+  "candidate_pool_actual": 9,
+  "data_quality_note": "Candidate universe remains 9 names because the connected historical-data source was used consistently. No claim of whole-market rank IC or decile spread is made."
+}
