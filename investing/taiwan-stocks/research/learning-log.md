@@ -166,6 +166,18 @@
 - 建議狀態：`official-final`、`official-preliminary`、`secondary-verified`、`release-confirmed-number-missing`、`missing`。
 - 案例：TWSE 說明三大法人資料 14:50 有初版、19:40 才有含綜合帳戶與鉅額版本；台積電、聯發科今日發布事件已由官方行事曆確認，但本次官方營收頁實值仍不可可靠讀取，因此只更新資料狀態，不更新 thesis 數值。
 
+## 2026-08-11
+
+### L026｜Trend Inflection：累計營收由負轉正
+- 單月改善若能讓 YTD YoY 從負值翻正，代表近期成長已足以抵銷前期疲弱，可視為趨勢轉折候選訊號，但不是新成長週期已被證明。
+- 正確順序：單月 YoY → MoM → YTD YoY → 產品組合 → margin → EPS → OCF/FCF。
+- 案例：聯發科 2026/07 營收 YoY +12.16%、MoM -16.44%，前七月 YTD +0.84%，較上半年 -0.77% 轉正；需繼續驗證 ASIC / data center、手機需求與 margin。
+
+### L027｜Revenue Confirmation ≠ Valuation Confirmation
+- 營收回答需求與出貨是否存在；估值回答市場目前為未來現金流支付多少。高營收成長不能直接推出便宜或合理價。
+- 營收確認後應接毛利率、營益率、EPS、OCF/FCF、資本需求，再比較 forward valuation、歷史區間與同業。
+- 案例：台積電 2026/07 營收 YoY +44.69%、前七月 +37.01%，強化 Q3 執行，但估值仍需 Q3 margin、FCF、capex、2nm 與增量 ROIC 驗證。
+
 ### 待教學主題
 - 資本支出與折舊
 - 杜邦分析
