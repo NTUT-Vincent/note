@@ -178,6 +178,18 @@
 - 營收確認後應接毛利率、營益率、EPS、OCF/FCF、資本需求，再比較 forward valuation、歷史區間與同業。
 - 案例：台積電 2026/07 營收 YoY +44.69%、前七月 +37.01%，強化 Q3 執行，但估值仍需 Q3 margin、FCF、capex、2nm 與增量 ROIC 驗證。
 
+## 2026-08-14
+
+### L028｜Revenue Mix Shift：營收組合改變比總營收更深一層
+- 總營收只回答公司賣了多少；產品線占比可進一步回答公司「正在變成什麼」。
+- 正確順序：總營收成長 → 高成長產品占比 → 毛利總額／margin → 營業利益 → working capital → OCF/FCF。
+- 案例：鴻海 FY26 Q2 雲端與網路產品（含 AI server）占營收 51%，首次超過一半，代表 AI infrastructure 已成為核心營收結構；但仍須驗證 margin、OCF/FCF 與資本效率，不能直接把 mix shift 等同估值上修。
+
+### L029｜Constraint Mapping：需求強還要找出供應瓶頸
+- 高成長 thesis 應拆成上游供給、公司自身產能／良率、客戶部署能力與財務限制；需求不等於已實現出貨。
+- AI infrastructure 常見瓶頸包括 GPU／ASIC、CoWoS、HBM、網路、電力、冷卻、機櫃整合、capex 與 working capital。
+- 案例：鴻海表示 Vera Rubin rack 預計 Q3 進入量產準備、Q4 開始出貨，但下一代 AI rack 實際出貨量仍可能受 CoWoS 能力限制。研究應追蹤瓶頸解除速度，而不是把強勁需求直接當成無上限營收。
+
 ### 待教學主題
 - 資本支出與折舊
 - 杜邦分析
