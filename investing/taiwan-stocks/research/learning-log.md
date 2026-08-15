@@ -190,6 +190,18 @@
 - AI infrastructure 常見瓶頸包括 GPU／ASIC、CoWoS、HBM、網路、電力、冷卻、機櫃整合、capex 與 working capital。
 - 案例：鴻海表示 Vera Rubin rack 預計 Q3 進入量產準備、Q4 開始出貨，但下一代 AI rack 實際出貨量仍可能受 CoWoS 能力限制。研究應追蹤瓶頸解除速度，而不是把強勁需求直接當成無上限營收。
 
+## 2026-08-15
+
+### L030｜Top-down → Bottom-up Earnings Bridge
+- GDP、出口與產業成長只提供總體順風，不能直接取代公司層級的營收、產品組合、margin、EPS、OCF/FCF 與估值分析。
+- 建議順序：`GDP / 出口 → 產業訂單 → 公司營收 → 產品組合 → 毛利率 / 營益率 → EPS → OCF / FCF → valuation`。
+- 案例：台灣官方將 2026 GDP 成長預估上調至 11.05%、出口成長預估至 41.07%，AI 是主要推力；這能支持科技供應鏈的 top-down 背景，但不能直接證明台積電、鴻海、聯發科或緯創目前估值便宜。
+
+### L031｜Supply-chain Triangulation：交叉驗證與避免 double counting
+- 客戶、供應商與產業資料彼此指向同一需求方向時，可以提高 thesis 可信度，但必須辨識它們是否其實來自同一終端需求，避免在研究矩陣中重複加分。
+- 將證據分成公司內部、上下游與產業外部三層；外部證據可以支持公司 thesis，但不能取代公司自己的 margin、cash flow 與估值。
+- 案例：鴻海指出下一代 AI rack 出貨受 CoWoS 供應影響，可作為台積電先進封裝需求的外部佐證；但 Nvidia demand、Foxconn AI server growth、TSMC CoWoS demand 很可能是同一 AI infrastructure 鏈條的不同觀察點，不應各算一份完全獨立需求證據。
+
 ### 待教學主題
 - 資本支出與折舊
 - 杜邦分析
