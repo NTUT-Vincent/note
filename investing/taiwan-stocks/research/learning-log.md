@@ -202,9 +202,21 @@
 - 將證據分成公司內部、上下游與產業外部三層；外部證據可以支持公司 thesis，但不能取代公司自己的 margin、cash flow 與估值。
 - 案例：鴻海指出下一代 AI rack 出貨受 CoWoS 供應影響，可作為台積電先進封裝需求的外部佐證；但 Nvidia demand、Foxconn AI server growth、TSMC CoWoS demand 很可能是同一 AI infrastructure 鏈條的不同觀察點，不應各算一份完全獨立需求證據。
 
+## 2026-08-16
+
+### L032｜實質殖利率與折現率敏感度
+- 實質殖利率是扣除通膨預期後的無風險實質報酬要求；上升時通常會提高股票估值使用的 required return / discount rate。
+- 高成長公司的現金流更偏向未來，因此對折現率變化通常更敏感；基本面沒有惡化，也可能因資金成本上升而出現估值壓縮。
+- 正確順序：`real yield → required return → discount rate → future cash-flow PV → valuation multiple`，不能跳成「殖利率升＝公司變差」。
+- 案例：Reuters 8/14 指出全球實質殖利率升至多年高位，AI hyperscaler 與政府大量發債增加資金需求；這使台積電、聯發科等高成長標的更需要把 FCF 與估值容錯率納入研究。
+
+### L033｜FCF Yield 與 Enterprise Value
+- FCF yield 把公司可分配／可累積的自由現金流與市場價格連在一起；比只看 EPS 更能反映 capex 與 working capital 的現金消耗。
+- Equity FCF yield 可簡化理解為 `FCF to Equity / Market Cap`；企業整體分析則應搭配 EV 與 unlevered FCF，避免忽略淨負債與資本結構。
+- 高 FCF yield 不自動代表便宜，可能反映市場預期衰退；低 FCF yield 也不自動代表昂貴，若公司能以高 ROIC 長期再投資，未來 FCF 可快速成長。
+- 案例：台積電要把高 EPS 與 2nm／海外 capex 連到 FCF 與增量 ROIC；鴻海與緯創則需驗證 AI server 成長是否被應收、存貨與 capex 吸收，才能判斷真正現金回報。
+
 ### 待教學主題
 - 資本支出與折舊
 - 杜邦分析
-- FCF yield 與企業價值
 - 客戶集中度與供應鏈議價能力
-- 殖利率／折現率如何影響估值
