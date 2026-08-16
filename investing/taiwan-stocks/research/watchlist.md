@@ -19,6 +19,7 @@
 
 ## Change Log
 
+- **2026-08-16｜No change：** 今日為週日，台股休市。週末新增可驗證資訊主要是全球實質殖利率維持多年高位、AI hyperscaler 與政府大量發債推升資金需求，以及油價／長債殖利率仍偏高。這些會提高高估值科技股的折現率敏感度，也讓 FCF / EV / 增量 ROIC 的檢查更重要，但沒有新的公司層級 margin、FCF、估值或營運證據足以改變六檔的 Priority / Labels / Active status，因此維持原清單。
 - **2026-08-15｜No change：** 今日為週六，台股休市。8/14 後可驗證的新資訊主要是台灣官方將 2026 GDP 成長預估上調至 11.05%、出口成長預估至 41.07%，以及美股週五在弱零售銷售、油價與長債殖利率偏高下小幅回落。這些屬 macro / valuation-environment 證據，不足以單獨改變六檔公司的 margin、FCF、估值或 thesis。所有 Priority / Labels / Active status 維持不變，避免把同一條 AI 需求背景重複加到每一家科技公司。
 - **2026-08-14｜2317 鴻海狀態強化、Priority 不變：** FY26 Q2 淨利約 599.7 億元、YoY +35%，高於 LSEG 共識約 588 億元；雲端與網路產品（含 AI server）占 Q2 營收 51%，首次超過一半。Vera Rubin rack 預計 Q3 進入量產準備、Q4 開始出貨，公司並預期 2026 capex 年增約 30%。狀態由 `Active / Q2-event-occurred / result-pending-verification` 更新為 `Active-strengthened-by-Q2-profit-and-AI-mix / cash-conversion-pending`；Priority 維持 High。Labels 暫不加入 Quality，因 gross/operating margin、AR/inventory、OCF/FCF 與增量 ROIC 仍待補齊。
 - **2026-08-12｜2317 鴻海事件狀態更新、Priority 不變：** 官方行事曆確認 FY26 Q2 法說於今日舉行，但本次資料截點尚未能從官方來源穩定擷取可交叉驗證的 Q2 2026 EPS、margin、OCF/FCF 與指引實值。狀態更新為 `Active / Q2-event-occurred / result-pending-verification`；Priority 維持 High。這不是 thesis 升級或降級，下一步是補取正式 Q2 結果並對照 Q1 guidance bridge。
