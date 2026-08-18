@@ -19,6 +19,7 @@
 
 ## Change Log
 
+- **2026-08-18｜No change：** 今日可可靠驗證的新資訊主要屬 macro / valuation environment：中東停火延長希望下降，油價維持近期高檔，美國長天期公債殖利率位於多年高位，增加高估值科技股的折現率敏感度；但沒有新的公司正式營收、財報、法說或重大營運證據足以改變六檔的 Priority / Labels / Active status。8/18 TWSE/TPEx final 與六檔完整官方 OHLCV 本次未能一致可靠取得，全部標示 missing，不以舊快照或二手數字補值。研究上提高 FCF / ROIC / valuation 的檢查強度，但不把 macro 壓力直接等同公司 thesis 惡化。
 - **2026-08-17｜No change：** TWSE 8/17 final 顯示加權指數 45,857.27、+0.10%，上市股票 541 漲／452 跌，產業輪動明顯：光電 +4.86%、航運 +4.00%、電子零組件 +2.41%，金融 -1.28%、電腦週邊 -1.40%、生技 -3.24%。六檔中聯發科 -3.80%、緯創 -3.36%、鴻海 -1.73%，但今天沒有新的公司正式營收、財報、法說或重大營運證據足以改變 Priority / Labels / Active status；不以單日價格調整 thesis。國防支出上升列入 candidate pool，但尚缺公司級合約、margin 與估值證據，不硬新增軍工股。
 - **2026-08-16｜No change：** 今日為週日，台股休市。週末新增可驗證資訊主要是全球實質殖利率維持多年高位、AI hyperscaler 與政府大量發債推升資金需求，以及油價／長債殖利率仍偏高。這些會提高高估值科技股的折現率敏感度，也讓 FCF / EV / 增量 ROIC 的檢查更重要，但沒有新的公司層級 margin、FCF、估值或營運證據足以改變六檔的 Priority / Labels / Active status，因此維持原清單。
 - **2026-08-15｜No change：** 今日為週六，台股休市。8/14 後可驗證的新資訊主要是台灣官方將 2026 GDP 成長預估上調至 11.05%、出口成長預估至 41.07%，以及美股週五在弱零售銷售、油價與長債殖利率偏高下小幅回落。這些屬 macro / valuation-environment 證據，不足以單獨改變六檔公司的 margin、FCF、估值或 thesis。所有 Priority / Labels / Active status 維持不變，避免把同一條 AI 需求背景重複加到每一家科技公司。
