@@ -19,6 +19,7 @@
 
 ## Change Log
 
+- **2026-08-20｜No change：** 加權指數收 44,933.74、+0.48%，成交約 7,929.63 億元，盤面由油電燃氣、水泥、航運等非 AI 族群領漲；同日 2027 國防支出規劃約 1.1225 兆元、年增約 18%、超過 GDP 3%。這些訊號足以擴大 non-AI earnings recovery 與國防 candidate pool，但尚未形成六檔 active watchlist 的公司級財報、營收、法說或現金流反證，因此 Priority / Labels / Active status 全部維持不變。8/20 TPEx、三大法人含鉅額 final、融資融券與六檔完整 official OHLCV 本次仍無法用一致資料鏈取得，故不以價格片段調整 thesis。
 - **2026-08-19｜No change：** 今日新增可驗證證據主要是跨市場估值／資金成本壓力：8/18 SOX 約 -5%、Nasdaq 約 -1.33%，8/19 全球長債殖利率仍在多年高位且 Brent 約 91.62 美元附近。這提高高成長科技股對 forward valuation、FCF 與 ROIC 的驗證門檻，但不是六家公司新的營收、財報、法說或重大營運反證。8/19 TWSE/TPEx final、六檔完整 official OHLCV 與三大法人含鉅額 final 在本次可重現資料鏈中仍不完整，因此不以價格或舊快照調整 Priority / Labels / Active status。
 - **2026-08-18｜No change：** 今日可可靠驗證的新資訊主要屬 macro / valuation environment：中東停火延長希望下降，油價維持近期高檔，美國長天期公債殖利率位於多年高位，增加高估值科技股的折現率敏感度；但沒有新的公司正式營收、財報、法說或重大營運證據足以改變六檔的 Priority / Labels / Active status。8/18 TWSE/TPEx final 與六檔完整官方 OHLCV 本次未能一致可靠取得，全部標示 missing，不以舊快照或二手數字補值。研究上提高 FCF / ROIC / valuation 的檢查強度，但不把 macro 壓力直接等同公司 thesis 惡化。
 - **2026-08-17｜No change：** TWSE 8/17 final 顯示加權指數 45,857.27、+0.10%，上市股票 541 漲／452 跌，產業輪動明顯：光電 +4.86%、航運 +4.00%、電子零組件 +2.41%，金融 -1.28%、電腦週邊 -1.40%、生技 -3.24%。六檔中聯發科 -3.80%、緯創 -3.36%、鴻海 -1.73%，但今天沒有新的公司正式營收、財報、法說或重大營運證據足以改變 Priority / Labels / Active status；不以單日價格調整 thesis。國防支出上升列入 candidate pool，但尚缺公司級合約、margin 與估值證據，不硬新增軍工股。
