@@ -19,6 +19,7 @@
 
 ## Change Log
 
+- **2026-08-24｜No change：** 加權指數收 44,762.32、-1.02%，上市 326 漲／656 跌，breadth 明顯轉弱；三大法人合計賣超約 163.78 億元，其中外資及陸資賣超約 157.51 億元。聯電逆勢收 123.5 元、+6.01%，成交約 19.4 萬張，且投信盤後買超逾 1.4 萬張，屬今日最強 company-specific 驗證候選。但新證據仍主要是價格、成交量與 positioning，尚未新增 Q3 ASP、實際利用率、margin、normalized EPS 或 OCF/FCF，因此不因單日逆勢與法人買超升級聯電；其餘五檔亦無新的公司正式營收、財報、法說或現金流反證。Priority / Labels / Active status 全部維持不變。
 - **2026-08-21｜3231 緯創 Priority Medium → High：** 不是因今日 -2.50% 的價格反應，而是新的財務證據補齊此前降級時的部分核心缺口：2026 Q2 EPS 4.72 元、YoY +114.55%，毛利率 5.66%、營益率 3.74%；2026/07 營收約 3,082.19 億元、YoY +60.8%，前七月累計 YoY +88.2%。狀態更新為 `Active-strengthened-by-Q2-earnings-and-July-revenue / cash-conversion-pending`。仍缺 AR / inventory / OCF / FCF 與增量 ROIC，因此不加入 Quality label。
 - **2026-08-21｜2303 聯電狀態重分類、Priority 維持 High：** Q2 本業證據已補齊：營收 687.3 億元、YoY +17%、毛利率 32.5%、營益率 21.8%、利用率 85%，Q3 利用率指引 >90%，支持成熟製程循環復甦；但 Q2 約 302 億元業外收益大幅推升淨利與 EPS，因此狀態由 `Active-strengthened-by-revenue / cyclical-validation-pending` 更新為 `Active-strengthened-by-Q2-core-margin / reported-EPS-quality-caveat`。估值改以 normalized EPS、正常化 ROE/PB、OCF/FCF 為核心，不直接年化 Q2 EPS。
 - **2026-08-20｜No change：** 加權指數收 44,933.74、+0.48%，成交約 7,929.63 億元，盤面由油電燃氣、水泥、航運等非 AI 族群領漲；同日 2027 國防支出規劃約 1.1225 兆元、年增約 18%、超過 GDP 3%。這些訊號足以擴大 non-AI earnings recovery 與國防 candidate pool，但尚未形成六檔 active watchlist 的公司級財報、營收、法說或現金流反證，因此 Priority / Labels / Active status 全部維持不變。8/20 TPEx、三大法人含鉅額 final、融資融券與六檔完整 official OHLCV 本次仍無法用一致資料鏈取得，故不以價格片段調整 thesis。
