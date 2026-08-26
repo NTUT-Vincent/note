@@ -17,8 +17,15 @@
 
 目前無。
 
+## Candidate Pool
+
+| 股票／主題 | 加入日期 | 原因 | 進入 Active 所需證據 |
+|---|---|---|---|
+| 6239 力成 / PiFO 先進封裝 | 2026-08-26 | PiFO 被描述為 ASIC + HBM 的 panel-level packaging 路線，預計 2027 年中量產，具 AI 先進封裝二階受惠研究價值 | 正式客戶／訂單、量產營收占比、良率／產能、毛利率、capex／折舊、OCF/FCF、估值 |
+
 ## Change Log
 
+- **2026-08-26｜No change；新增 6239 力成至 Candidate Pool：** 加權指數收 45,832.62、+1.47%，聯發科 +5.62%、台積電 +0.62%、鴻海 +1.44%、緯創 +1.96%，但 Nvidia 財報尚未公布，今日價格主要仍屬事件前 positioning，沒有新的正式公司財報／月營收證據足以改變六檔 active watchlist 的 Priority / Labels / thesis。力成 PiFO 今日出現新的 AI 先進封裝量產敘事，先加入 Candidate Pool；在正式客戶、訂單、量產營收、margin、capex 與 FCF 未驗證前不加入 Active。三大法人含鉅額 final 本次執行時間早於官方約 19:40–20:00 產製時間，故不以初版 flow 調整 thesis。
 - **2026-08-25｜2884 玉山金狀態更新、Priority 維持 Medium：** 新取得 2026 Q2 EPS 0.70 元、每股淨值 17.40 元；以 8/25 約 38.95 元計算，粗略 P/B 約 2.24x。這補上原本部分獲利／估值錨，因此狀態由 `Active-strengthened / valuation-incomplete` 更新為 `Active-strengthened-by-Q2-EPS-and-book-value / NIM-credit-cost-pending`。不因今日約 +2.1% 升級，而是因 Q2 財務證據讓「ROE 是否足以支撐 P/B」變成可量化研究問題。NIM、信用成本、逾放與手續費收入仍缺，因此 Priority 維持 Medium。其餘五檔 No change；今日 V 型反轉與 Nvidia 財報前價格波動不足以單獨改變 thesis。
 - **2026-08-24｜No change：** 加權指數收 44,762.32、-1.02%，上市 326 漲／656 跌，breadth 明顯轉弱；三大法人合計賣超約 163.78 億元，其中外資及陸資賣超約 157.51 億元。聯電逆勢收 123.5 元、+6.01%，成交約 19.4 萬張，且投信盤後買超逾 1.4 萬張，屬今日最強 company-specific 驗證候選。但新證據仍主要是價格、成交量與 positioning，尚未新增 Q3 ASP、實際利用率、margin、normalized EPS 或 OCF/FCF，因此不因單日逆勢與法人買超升級聯電；其餘五檔亦無新的公司正式營收、財報、法說或現金流反證。Priority / Labels / Active status 全部維持不變。
 - **2026-08-21｜3231 緯創 Priority Medium → High：** 不是因今日 -2.50% 的價格反應，而是新的財務證據補齊此前降級時的部分核心缺口：2026 Q2 EPS 4.72 元、YoY +114.55%，毛利率 5.66%、營益率 3.74%；2026/07 營收約 3,082.19 億元、YoY +60.8%，前七月累計 YoY +88.2%。狀態更新為 `Active-strengthened-by-Q2-earnings-and-July-revenue / cash-conversion-pending`。仍缺 AR / inventory / OCF / FCF 與增量 ROIC，因此不加入 Quality label。
