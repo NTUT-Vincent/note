@@ -10,7 +10,7 @@
 | 3231 緯創 | 2026-07-29 | Growth / Momentum / High-volatility risk | High | Active-strengthened-by-Q2-earnings-and-July-revenue / cash-conversion-pending | Q2 EPS／margin 與7月營收已補齊部分核心缺口；AI server 高成長能否進一步轉化成營業現金流、FCF 與高增量 ROIC？ | 應收／存貨、營業現金流、FCF、AI server占比、capex、增量ROIC |
 | 2884 玉山金 | 2026-07-29 | Defensive / Quality | Medium | Active-strengthened-by-Q2-EPS-and-book-value / NIM-credit-cost-pending | Q2 EPS與每股淨值已讓估值問題更可量化；約2.24x P/B 是否有可持續ROE、NIM與資產品質支撐？ | ROE、P/B、NIM、信用成本、逾放比、手續費收入 |
 | 2454 聯發科 | 2026-07-29 | Event-driven / Quality / Growth-recovery | High | Active-strengthened-by-July-revenue / earnings-mix-unverified | 7月營收使YTD由負轉正後，成長是否可由ASIC／資料中心、手機產品週期、margin、EPS與現金流持續驗證？ | 8/9月營收、Q2/Q3毛利率與營益率、ASIC／資料中心收入、手機需求、研發費用、forward valuation、FCF |
-| 2303 聯電 | 2026-07-30 | Event-driven / Turnaround / Cyclical | High | Active-strengthened-by-Q2-core-margin / reported-EPS-quality-caveat | Q2 本業營收、毛利率、營益率與利用率改善已驗證循環復甦；reported EPS 中大額業外收益如何正規化，Q3 利用率與現金流能否持續支持本業 thesis？ | Q3利用率>90%、ASP、毛利率、正常化EPS、營業現金流、FCF、P/B、正常化ROE |
+| 2303 聯電 | 2026-07-30 | Event-driven / Turnaround / Cyclical | High | Active-strengthened-by-Q2-core-margin-and-silicon-photonics / CB-dilution-and-EPS-quality-pending | Q2 本業改善與矽光子首批量產晶圓交付強化特殊製程 thesis；大型海外 CB 的稀釋、capex 回報與 Q3 現金流能否支持第二成長曲線？ | Q3利用率>90%、ASP、毛利率、正常化EPS、CB最終條件／轉換價格、矽光子客戶與營收占比、營業現金流、FCF、P/B、正常化ROE |
 | 2317 鴻海 | 2026-08-07 | Growth / Event-driven | High | Active-strengthened-by-Q2-profit-and-AI-mix / cash-conversion-pending | Q2獲利與AI server/cloud mix 已強化成長 thesis；能否進一步由 margin、OCF/FCF 與資本效率證明為高品質成長？ | Q2毛利率、營益率、EPS、AI server/cloud占比、應收／存貨、OCF/FCF、Q3 Vera Rubin 出貨、capex、forward valuation |
 
 ## Archived / Removed
@@ -21,10 +21,11 @@
 
 | 股票／主題 | 加入日期 | 原因 | 進入 Active 所需證據 |
 |---|---|---|---|
-| 6239 力成 / PiFO 先進封裝 | 2026-08-26 | PiFO 被描述為 ASIC + HBM 的 panel-level packaging 路線，預計 2027 年中量產，具 AI 先進封裝二階受惠研究價值 | 正式客戶／訂單、量產營收占比、良率／產能、毛利率、capex／折舊、OCF/FCF、估值 |
+| 6239 力成 / PiFO 先進封裝 | 2026-08-26 | PiFO / FOPLP 被描述為 ASIC + HBM 的 panel-level packaging 路線，預計 2027 年中量產；Q2 營收約231.16億元、毛利率21.8%、EPS 3元，Candidate evidence 增加 | 正式客戶／訂單、量產營收占比、良率／產能、capex／折舊、OCF/FCF、估值；在這些證據補齊前不升 Active |
 
 ## Change Log
 
+- **2026-08-28｜2303 聯電狀態強化、Priority 維持 High：** 今日收130元、+9.70%，外資大買約8.9萬張，但升級理由不是漲停或法人 flow，而是新的公司級證據：首批12吋矽光子量產晶圓已交付，12nm FinFET roadmap 延伸，同時公司規劃最高18億美元海外無擔保可轉債用於設備／廠務。狀態更新為 `Active-strengthened-by-Q2-core-margin-and-silicon-photonics / CB-dilution-and-EPS-quality-pending`。新增驗證：CB轉換價格／稀釋、矽光子正式客戶／營收占比、Q3 ASP／margin、OCF/FCF 與增量ROIC。6239力成 Candidate evidence 增加，但仍缺正式客戶／訂單與量產現金流，因此不升 Active。其餘五檔 No change。
 - **2026-08-26｜No change；新增 6239 力成至 Candidate Pool：** 加權指數收 45,832.62、+1.47%，聯發科 +5.62%、台積電 +0.62%、鴻海 +1.44%、緯創 +1.96%，但 Nvidia 財報尚未公布，今日價格主要仍屬事件前 positioning，沒有新的正式公司財報／月營收證據足以改變六檔 active watchlist 的 Priority / Labels / thesis。力成 PiFO 今日出現新的 AI 先進封裝量產敘事，先加入 Candidate Pool；在正式客戶、訂單、量產營收、margin、capex 與 FCF 未驗證前不加入 Active。三大法人含鉅額 final 本次執行時間早於官方約 19:40–20:00 產製時間，故不以初版 flow 調整 thesis。
 - **2026-08-25｜2884 玉山金狀態更新、Priority 維持 Medium：** 新取得 2026 Q2 EPS 0.70 元、每股淨值 17.40 元；以 8/25 約 38.95 元計算，粗略 P/B 約 2.24x。這補上原本部分獲利／估值錨，因此狀態由 `Active-strengthened / valuation-incomplete` 更新為 `Active-strengthened-by-Q2-EPS-and-book-value / NIM-credit-cost-pending`。不因今日約 +2.1% 升級，而是因 Q2 財務證據讓「ROE 是否足以支撐 P/B」變成可量化研究問題。NIM、信用成本、逾放與手續費收入仍缺，因此 Priority 維持 Medium。其餘五檔 No change；今日 V 型反轉與 Nvidia 財報前價格波動不足以單獨改變 thesis。
 - **2026-08-24｜No change：** 加權指數收 44,762.32、-1.02%，上市 326 漲／656 跌，breadth 明顯轉弱；三大法人合計賣超約 163.78 億元，其中外資及陸資賣超約 157.51 億元。聯電逆勢收 123.5 元、+6.01%，成交約 19.4 萬張，且投信盤後買超逾 1.4 萬張，屬今日最強 company-specific 驗證候選。但新證據仍主要是價格、成交量與 positioning，尚未新增 Q3 ASP、實際利用率、margin、normalized EPS 或 OCF/FCF，因此不因單日逆勢與法人買超升級聯電；其餘五檔亦無新的公司正式營收、財報、法說或現金流反證。Priority / Labels / Active status 全部維持不變。
@@ -39,7 +40,7 @@
 - **2026-08-14｜2317 鴻海狀態強化、Priority 不變：** FY26 Q2 淨利約 599.7 億元、YoY +35%，高於 LSEG 共識約 588 億元；雲端與網路產品（含 AI server）占 Q2 營收 51%，首次超過一半。Vera Rubin rack 預計 Q3 進入量產準備、Q4 開始出貨，公司並預期 2026 capex 年增約 30%。狀態由 `Active / Q2-event-occurred / result-pending-verification` 更新為 `Active-strengthened-by-Q2-profit-and-AI-mix / cash-conversion-pending`；Priority 維持 High。Labels 暫不加入 Quality，因 gross/operating margin、AR/inventory、OCF/FCF 與增量 ROIC 仍待補齊。
 - **2026-08-12｜2317 鴻海事件狀態更新、Priority 不變：** 官方行事曆確認 FY26 Q2 法說於今日舉行，但本次資料截點尚未能從官方來源穩定擷取可交叉驗證的 Q2 2026 EPS、margin、OCF/FCF 與指引實值。狀態更新為 `Active / Q2-event-occurred / result-pending-verification`；Priority 維持 High。這不是 thesis 升級或降級，下一步是補取正式 Q2 結果並對照 Q1 guidance bridge。
 - **2026-08-11｜2454 聯發科重新分類／狀態升級：** 2026/07 營收約 484.75 億元，YoY +12.16%、MoM -16.44%；前七月累計約 3,498.08 億元，YoY +0.84%，較上半年累計 -0.77% 轉正。Labels 更新為 `Event-driven / Quality / Growth-recovery`，狀態更新為 `Active-strengthened-by-July-revenue / earnings-mix-unverified`。Priority 維持 High，因 margin、ASIC mix、FCF 與估值仍待驗證。
-- **2026-08-11｜2330 台積電狀態強化：** 2026/07 營收約 4,675.81 億元，MoM +5.62%、YoY +44.69%；前七月累計約 2.87206 兆元、YoY +37.01%。解除 8/10 的營收資料缺口，狀態更新為 `Active-strengthened-by-July-revenue`；Priority 維持 High，下一層研究轉向 Q3 margin、FCF、capex 與增量 ROIC。
+- **2026-08-11｜2330 台積電狀態強化：** 2026/07 營收約 4,675.81 億元，MoM +5.62%、YoY +44.69%；前七月累計約 2.87206 兆元、YoY +37.01%。解除 8/10 資料缺口，狀態更新為 `Active-strengthened-by-July-revenue`；Priority 維持 High，下一層研究轉向 Q3 margin、FCF、capex 與增量 ROIC。
 - **2026-08-10｜No change：** 台積電與聯發科官方行事曆均確認今日為 7 月營收發布日，但本次可可靠讀取的官方營收頁仍未顯示 7 月實際數字。依資料品質規則，不使用未驗證二手數字、價格或預估值調整 Priority / Labels / Active status；兩檔待補取官方實值後立即做 run-rate 與 thesis 更新。
 - **2026-08-07｜新增 2317 鴻海：** 2026/07 營收約 9,465.1 億元，MoM +15.18%、YoY +54.19%，前七月累計 YoY +37.89%；加入 Growth / Event-driven，Priority High。仍須驗證毛利率、EPS、OCF/FCF 與估值。
 - **2026-08-07｜3231 緯創 Priority High → Medium：** thesis 未失效；調整原因是核心 cash-conversion / margin 證據仍未補齊，而鴻海出現更即時可驗證的新營收催化，研究時間依機會成本重排。不是因單日股價下跌。
