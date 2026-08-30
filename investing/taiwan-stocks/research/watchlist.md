@@ -22,9 +22,11 @@
 | 股票／主題 | 加入日期 | 原因 | 進入 Active 所需證據 |
 |---|---|---|---|
 | 6239 力成 / PiFO 先進封裝 | 2026-08-26 | PiFO / FOPLP 被描述為 ASIC + HBM 的 panel-level packaging 路線，預計 2027 年中量產；Q2 營收約231.16億元、毛利率21.8%、EPS 3元，Candidate evidence 增加 | 正式客戶／訂單、量產營收占比、良率／產能、capex／折舊、OCF/FCF、估值；在這些證據補齊前不升 Active |
+| 台灣國防無人機／非紅供應鏈 | 2026-08-30 | 8/27 立法院通過另一套約2,400億元、六年期、原則每年400億元的無人機預算框架；政策由概念走向可追蹤預算，但尚未形成個股營收證據 | 採購規格、正式標案／得標、在手訂單、交付與驗收、營收認列、毛利率、產能、應收／存貨、OCF/FCF、估值；在公司級證據出現前不升 Active |
 
 ## Change Log
 
+- **2026-08-30｜Active No change；新增「台灣國防無人機／非紅供應鏈」至 Candidate Pool：** 今日為週日，台股休市，沒有新的公司正式營收、財報、法說或重大公告足以調整六檔 Active 的 Priority / Labels / thesis。新增 Candidate 的理由不是股價，而是 8/27 立法院已通過另一套約2,400億元、六年期、原則每年400億元的無人機預算框架，使政策證據從國防支出方向進一步走向可追蹤的年度預算。但在採購規格、標案、正式得標、在手訂單、收入認列、margin、capex／working capital、FCF 與估值未驗證前，不指定單一個股為 Active Research Pick。
 - **2026-08-28｜2303 聯電狀態強化、Priority 維持 High：** 今日收130元、+9.70%，外資大買約8.9萬張，但升級理由不是漲停或法人 flow，而是新的公司級證據：首批12吋矽光子量產晶圓已交付，12nm FinFET roadmap 延伸，同時公司規劃最高18億美元海外無擔保可轉債用於設備／廠務。狀態更新為 `Active-strengthened-by-Q2-core-margin-and-silicon-photonics / CB-dilution-and-EPS-quality-pending`。新增驗證：CB轉換價格／稀釋、矽光子正式客戶／營收占比、Q3 ASP／margin、OCF/FCF 與增量ROIC。6239力成 Candidate evidence 增加，但仍缺正式客戶／訂單與量產現金流，因此不升 Active。其餘五檔 No change。
 - **2026-08-26｜No change；新增 6239 力成至 Candidate Pool：** 加權指數收 45,832.62、+1.47%，聯發科 +5.62%、台積電 +0.62%、鴻海 +1.44%、緯創 +1.96%，但 Nvidia 財報尚未公布，今日價格主要仍屬事件前 positioning，沒有新的正式公司財報／月營收證據足以改變六檔 active watchlist 的 Priority / Labels / thesis。力成 PiFO 今日出現新的 AI 先進封裝量產敘事，先加入 Candidate Pool；在正式客戶、訂單、量產營收、margin、capex 與 FCF 未驗證前不加入 Active。三大法人含鉅額 final 本次執行時間早於官方約 19:40–20:00 產製時間，故不以初版 flow 調整 thesis。
 - **2026-08-25｜2884 玉山金狀態更新、Priority 維持 Medium：** 新取得 2026 Q2 EPS 0.70 元、每股淨值 17.40 元；以 8/25 約 38.95 元計算，粗略 P/B 約 2.24x。這補上原本部分獲利／估值錨，因此狀態由 `Active-strengthened / valuation-incomplete` 更新為 `Active-strengthened-by-Q2-EPS-and-book-value / NIM-credit-cost-pending`。不因今日約 +2.1% 升級，而是因 Q2 財務證據讓「ROE 是否足以支撐 P/B」變成可量化研究問題。NIM、信用成本、逾放與手續費收入仍缺，因此 Priority 維持 Medium。其餘五檔 No change；今日 V 型反轉與 Nvidia 財報前價格波動不足以單獨改變 thesis。
