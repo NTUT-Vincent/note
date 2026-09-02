@@ -20,10 +20,10 @@
 
 ## T002｜3231 緯創
 - **建立日期：** 2026-07-29
-- **狀態：** active-strengthened-by-Q2-earnings-and-July-revenue / cash-conversion-pending
-- **Thesis：** AI server 帶來真實高速營收成長；真正要驗證的是產品組合是否讓獲利率、EPS、現金流與增量 ROIC 同步改善。
-- **支持證據：** 2026 Q2 EPS 4.72 元、YoY +114.55%，毛利率 5.66%、營益率 3.74%；2026/07 營收約 3,082.19 億元、YoY +60.8%，前七月累計 YoY +88.2%。
-- **風險：** 低毛利代工結構、營運資金、capex、客戶集中與高波動。
+- **狀態：** active-strengthened-by-Q2-July-and-customer-AI-backlog / cash-conversion-pending
+- **Thesis：** AI server 帶來真實高速營收成長；Q2財務、7月營收與客戶端AI backlog共同提高需求可信度，但真正要驗證的是產品組合是否讓獲利率、EPS、現金流與增量 ROIC 同步改善。
+- **支持證據：** 2026 Q2 EPS 4.72 元、YoY +114.55%，毛利率 5.66%、營益率 3.74%；2026/07 營收約 3,082.19 億元、YoY +60.8%，前七月累計 YoY +88.2%；Dell Technologies Q2 FY27 官方資料顯示 AI orders 609 億美元、AI server revenue 164 億美元、季末 AI backlog 950 億美元，提供新的客戶端需求佐證。
+- **風險：** 低毛利代工結構、營運資金、capex、客戶集中與高波動；客戶 backlog 不能直接等同緯創已認列營收或 FCF。
 - **2026-07-30 更新：** 收 160 元、-5.60%，提高毛利率、營益率與現金轉換驗證優先級。
 - **2026-07-31 更新：** 收 176 元、+10%，成交放大。價格反彈不補足獲利品質證據，因此狀態不升級；新增 high-volatility 標記。
 - **2026-08-01 更新：** 週末狀態不變。研究框架加入營業現金流、FCF、應收帳款與存貨相對營收增速。
@@ -33,7 +33,8 @@
 - **2026-08-11 更新：** 收 191 元、-1.04%，成交約 3.45 萬張；沒有新的 margin / OCF / FCF 證據，因此 thesis 與 Medium priority 不變。
 - **2026-08-21 更新：** Q2 EPS、毛利率、營益率與 7 月營收補齊部分核心缺口，因此 Priority Medium → High；但 AR / inventory / OCF / FCF 與增量 ROIC 仍待驗證，不加入 Quality label。
 - **2026-09-01 更新：** 收 182 元、+2.25%，成交約 2.76 萬張。AI ecosystem 外部證據增加，但不以類股上漲補足 cash-conversion 缺口。
-- **下次檢查：** AI server占比、營業現金流、自由現金流、應收帳款、存貨、capex 與增量 ROIC。
+- **2026-09-02 更新：** Dell Technologies 官方 Q2 FY27 顯示 AI orders 609 億美元、AI server revenue 164 億美元、AI backlog 950 億美元；這是高品質 customer-side demand evidence，因此 thesis 狀態強化。今日緯創收185.5元、+1.92%、成交約8.33萬張不是升級理由。Priority 維持 High，且不加入 Quality，因 AR / inventory / OCF / FCF、capex 與增量 ROIC 仍待公司自身證據驗證。
+- **下次檢查：** AI server占比／主要客戶、營業現金流、自由現金流、應收帳款、存貨、capex 與增量 ROIC。
 
 ## T003｜2884 玉山金
 - **建立日期：** 2026-07-29
