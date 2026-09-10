@@ -4,10 +4,10 @@
 
 ## T001｜2330 台積電
 - **建立日期：** 2026-07-29
-- **狀態：** active-strengthened-by-July-revenue
-- **Thesis：** AI/HPC、先進製程與先進封裝支撐營收與 EPS 成長；研究重點是成長、資本效率與估值的交會點。
-- **支持證據：** 2026 Q2 營收 1.27038 兆元、年增 36%；EPS 27.25 元、年增 77.4%；毛利率 67.7%、營益率 60.3%；Q3 美元營收指引 446–458 億美元。
-- **風險：** AI capex ROI 下修、2奈米爬坡與海外廠成本稀釋、地緣政治、估值過度擴張。
+- **狀態：** active-strengthened-by-August-record-revenue / Q3-margin-FCF-and-ROIC-pending
+- **Thesis：** AI/HPC、先進製程與先進封裝支撐營收與 EPS 成長；8月營收再創歷史新高後，研究重點進一步轉向新增營收能否維持高毛利額、自由現金流與高增量 ROIC，以及估值對高折現率的敏感度。
+- **支持證據：** 2026 Q2 營收 1.27038 兆元、年增 36%；EPS 27.25 元、年增 77.4%；毛利率 67.7%、營益率 60.3%；Q3 美元營收指引 446–458 億美元；2026/08 營收 5,148.06 億元、MoM +10.1%、YoY +53.3%，前八月累計 3.38687 兆元、YoY +39.3%，7–8月合計9,823.86億元。
+- **風險：** AI capex ROI 下修、2奈米爬坡與海外廠成本稀釋、地緣政治、高油價／利率帶來的估值壓力、估值過度擴張。
 - **2026-07-30 更新：** 收 2,205 元、+0.23%，成交量下降；只視為賣壓降溫。
 - **2026-07-31 更新：** 收 2,425 元、+9.98%。Thesis 升級的理由是 Q2 EPS、雙率與 Q3 指引，而非漲停本身。舊 trailing EPS 已落後，需改用 2026 EPS 情境與 forward P/E。
 - **2026-08-01 更新：** 週末無新公司資料，狀態不變。新增自由現金流檢查：capex、折舊、2奈米與海外擴產是否影響 FCF 轉換。
@@ -16,14 +16,15 @@
 - **2026-08-07 更新：** 收 2,370 元、+0.21%，成交約 2.44 萬張，量能續降。沒有新基本面證據，因此 thesis 與 High priority 不變；下一個核心驗證點仍是 8/10 七月營收與 Q3 執行。
 - **2026-08-11 更新：** 2026/07 營收約 4,675.81 億元，MoM +5.62%、YoY +44.69%；前七月累計約 2.87206 兆元、YoY +37.01%。解除 8/10 資料缺口，thesis 進一步強化；今日收 2,395 元、+0.63%、成交約 1.82 萬張，價格只作結構觀察。下一層驗證轉向 Q3 毛利率、FCF、capex 與增量 ROIC。
 - **2026-09-01 更新：** NVIDIA / 聯發科擴大 custom XPU 與 NVLink Fusion 合作，對先進製程／封裝屬外部需求 read-through，但與既有 AI demand 高度相關，不重複計分；今日收 2,440 元、+1.46% 僅作價格觀察。
-- **下次檢查：** Q3 毛利率 65%–67%達成度、8/9 月營收、capex、2奈米爬坡、AI/HPC占比、自由現金流與增量 ROIC。
+- **2026-09-10 更新：** 8月營收5,148.06億元、MoM +10.1%、YoY +53.3%，再創單月歷史新高；前八月3.38687兆元、YoY +39.3%。狀態強化不是因今日收2,450元、-0.61%。月營收只回答需求／出貨規模，Q3實際毛利率、營業利益、FCF與增量ROIC仍待驗證。
+- **下次檢查：** 9月營收、Q3營收446–458億美元、Q3毛利率65%–67%、營益率56%–58%、capex、2奈米爬坡、AI/HPC占比、自由現金流與增量 ROIC。
 
 ## T002｜3231 緯創
 - **建立日期：** 2026-07-29
-- **狀態：** active-strengthened-by-Q2-July-and-customer-AI-backlog / cash-conversion-pending
-- **Thesis：** AI server 帶來真實高速營收成長；Q2財務、7月營收與客戶端AI backlog共同提高需求可信度，但真正要驗證的是產品組合是否讓獲利率、EPS、現金流與增量 ROIC 同步改善。
-- **支持證據：** 2026 Q2 EPS 4.72 元、YoY +114.55%，毛利率 5.66%、營益率 3.74%；2026/07 營收約 3,082.19 億元、YoY +60.8%，前七月累計 YoY +88.2%；Dell Technologies Q2 FY27 官方資料顯示 AI orders 609 億美元、AI server revenue 164 億美元、季末 AI backlog 950 億美元，提供新的客戶端需求佐證。
-- **風險：** 低毛利代工結構、營運資金、capex、客戶集中與高波動；客戶 backlog 不能直接等同緯創已認列營收或 FCF。
+- **狀態：** active-strengthened-by-Q2-August-record-revenue-and-AI-ramp / capital-intensity-dilution-and-cash-conversion-pending
+- **Thesis：** AI server 帶來真實高速營收成長；Q2財務、Dell AI backlog與8月創高營收共同提高需求可信度，但GDR與海外擴產也讓研究進入第二層：營收能否轉成margin、OCF/FCF與高增量ROIC，並覆蓋新增資本與稀釋成本。
+- **支持證據：** 2026 Q2 EPS 4.72 元、YoY +114.55%，毛利率 5.66%、營益率 3.74%；Dell Technologies Q2 FY27 AI orders 609 億美元、AI server revenue 164 億美元、季末 AI backlog 950 億美元；2026/08營收約4,600.65億元、MoM +49.3%、YoY +166.5%，創單月新高，前八月約2.51兆元、YoY +98.9%；另有GDR與美國／越南server產能投資。
+- **風險：** 低毛利代工結構、營運資金、capex、GDR稀釋、客戶集中與高波動；客戶 backlog 與營收成長不能直接等同 FCF 或股東價值。
 - **2026-07-30 更新：** 收 160 元、-5.60%，提高毛利率、營益率與現金轉換驗證優先級。
 - **2026-07-31 更新：** 收 176 元、+10%，成交放大。價格反彈不補足獲利品質證據，因此狀態不升級；新增 high-volatility 標記。
 - **2026-08-01 更新：** 週末狀態不變。研究框架加入營業現金流、FCF、應收帳款與存貨相對營收增速。
@@ -33,8 +34,10 @@
 - **2026-08-11 更新：** 收 191 元、-1.04%，成交約 3.45 萬張；沒有新的 margin / OCF / FCF 證據，因此 thesis 與 Medium priority 不變。
 - **2026-08-21 更新：** Q2 EPS、毛利率、營益率與 7 月營收補齊部分核心缺口，因此 Priority Medium → High；但 AR / inventory / OCF / FCF 與增量 ROIC 仍待驗證，不加入 Quality label。
 - **2026-09-01 更新：** 收 182 元、+2.25%，成交約 2.76 萬張。AI ecosystem 外部證據增加，但不以類股上漲補足 cash-conversion 缺口。
-- **2026-09-02 更新：** Dell Technologies 官方 Q2 FY27 顯示 AI orders 609 億美元、AI server revenue 164 億美元、AI backlog 950 億美元；這是高品質 customer-side demand evidence，因此 thesis 狀態強化。今日緯創收185.5元、+1.92%、成交約8.33萬張不是升級理由。Priority 維持 High，且不加入 Quality，因 AR / inventory / OCF / FCF、capex 與增量 ROIC 仍待公司自身證據驗證。
-- **下次檢查：** AI server占比／主要客戶、營業現金流、自由現金流、應收帳款、存貨、capex 與增量 ROIC。
+- **2026-09-02 更新：** Dell Technologies 官方 Q2 FY27 顯示 AI orders 609 億美元、AI server revenue 164 億美元、AI backlog 950 億美元；這是高品質 customer-side demand evidence，因此 thesis 狀態強化。Priority 維持 High，且不加入 Quality，因 AR / inventory / OCF / FCF、capex 與增量 ROIC 仍待公司自身證據驗證。
+- **2026-09-09 更新：** 8月營收4,600.65億元、MoM +49.3%、YoY +166.5%創單月新高，且筆電出貨未同步暴增，提高AI server為主要增量來源的可信度；同時GDR與美國／越南server投資提高capital-intensity與dilution研究重要性。Priority維持High。
+- **2026-09-10 更新：** 收185元、-2.12%，成交約8.85萬張。單日回落不削弱8月營收 evidence；核心仍是GDR最終稀釋、AR/inventory、OCF/FCF、capex與增量ROIC。
+- **下次檢查：** GDR最終稀釋率、AI server占比／主要客戶、營業現金流、自由現金流、應收帳款、存貨、美國／越南capex 與增量 ROIC。
 
 ## T003｜2884 玉山金
 - **建立日期：** 2026-07-29
@@ -88,16 +91,18 @@
 
 ## T006｜2317 鴻海
 - **建立日期：** 2026-08-07
-- **狀態：** active-strengthened-by-Q2-profit-and-AI-mix / cash-conversion-pending
-- **Thesis：** 2026/07 與前七月營收高速成長、Q2 profit 與 AI/cloud mix 提高支持 AI server / cloud 成長；真正價值仍要由 margin、營運資金、OCF/FCF 與新增資本回報證明。
-- **初始支持證據：** 2026/07 營收約 9,465.1 億元，MoM +15.18%、YoY +54.19%；前七月累計約 5.589 兆元、YoY +37.89%。
-- **籌碼觀察：** 2026-08-07 法人合計約 -675.5 萬股；與營收強勢是不同時間尺度，不視為基本面否定。
-- **價格結構：** 8/5、8/6、8/7 收 258.5 → 264.5 → 260 元；只作價格發現觀察。
+- **狀態：** active-strengthened-by-Q2-AI-mix-and-August-revenue / cash-conversion-pending
+- **Thesis：** 2026 Q2 profit與AI/cloud mix，加上7–8月連續高營收，共同支持AI server / cloud需求 persistence；真正價值仍要由 margin、營運資金、OCF/FCF 與新增資本回報證明。
+- **支持證據：** 2026/07 營收約 9,465.1 億元，MoM +15.18%、YoY +54.19%；Q2淨利約599.7億元、YoY +35%，雲端與網路產品（含 AI server）占Q2營收51%；2026/08營收約9,218億元、YoY +51.98%，連續第二個月站上9,000億元。
+- **籌碼觀察：** 法人 flow 只視為 positioning，不以單日買賣超驗證需求 thesis。
+- **價格結構：** 9/8–9/10 收251.5 → 252 → 251元，價格橫向，不用來證明或否定8月營收 persistence。
 - **2026-08-11 更新：** 收 263 元、-0.57%；8/12 Q2 法說前量縮，不用價格預判結果。
 - **2026-08-14 更新：** Q2 淨利約 599.7 億元、YoY +35%；雲端與網路產品（含 AI server）占 Q2 營收 51%，Vera Rubin rack 預計 Q3 進入量產準備、Q4 出貨；狀態升為 strengthened，但 cash conversion / margin 仍待驗證。
 - **2026-09-01 更新：** 收 256 元、+2.40%；NVIDIA/MediaTek 生態擴張提供 AI factory 外部需求支持，但不重複計分，也不補足 margin／OCF/FCF 缺口。
+- **2026-09-05 更新：** 8月營收約9,218億元、YoY +51.98%，連續第二個月高於9,000億元；需求 persistence進一步強化，狀態更新為 `active-strengthened-by-Q2-AI-mix-and-August-revenue / cash-conversion-pending`。Priority維持High，不加入Quality，因margin、AR/inventory、OCF/FCF與incremental ROIC仍待驗證。
+- **2026-09-10 更新：** 收251元、-0.40%，成交約4.02萬張；沒有新營運反證，因此不因價格偏弱調整thesis。
 - **Bull case：** AI server / cloud 組合持續提高，營收成長同步改善 margin、EPS、OCF/FCF，capex 產生合理增量 ROIC。
 - **Bear case：** 成長主要來自低毛利 pass-through 或提前拉貨；客戶集中與議價壓力提高；應收／存貨快於營收，FCF 惡化。
 - **估值狀態：** forward P/E、EV/EBITDA 與同業歷史區間仍需可靠更新。
 - **研究優先度：** **High**，代表資訊密度與待驗證價值高，不是買進評級。
-- **下次檢查：** margin、AI server/cloud占比、應收帳款、存貨、OCF/FCF、Rubin、capex、客戶集中與 forward valuation。
+- **下次檢查：** Q3 margin、AI server/cloud占比、應收帳款、存貨、OCF/FCF、Rubin、capex、客戶集中與 forward valuation。
